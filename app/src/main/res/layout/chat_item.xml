@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal|center_vertical">
+    <TextView
+            android:text="유저"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/chatItemNameView"
+            android:textColor="@color/colorGreyDark"/>
+    <TextView
+            android:text=":"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView25" android:textColor="@color/colorGreyDark"
+            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+    <TextView
+            android:text="여기 대화가 출력됩니다"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/chatItemSentenceView"
+            android:textColor="@color/colorGreyDark"
+            android:paddingRight="10dp" android:background="@null" android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="10dp" android:paddingTop="10dp"/>
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/chatItemSimulyIcon" android:background="@drawable/main_asset_simuly_coin"
+            android:visibility="gone"/>
+</LinearLayout>
